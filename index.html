@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexka.store - Jasa Joki Blox Fruits Terpercaya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+       <header>
+    <div class="container">
+        <h1 class="logo">LEXKA STORE</h1>
+        <p class="tagline">Jasa Joki Cepat & Aman</p>
+        
+        <button id="openCartBtn" class="cart-button">
+            <i class="fas fa-shopping-cart"></i> (<span id="cartCount">0</span>)
+        </button>
+    </div>
+</header>
+
+    <main class="container">
+        <section class="joki-header">
+            <h2>Daftar Harga Joki</h2>
+        
+        </section>
+
+        <section id="joki-list" class="grid-container">
+            </section>
+
+        <section class="contact-section">
+            <h3>CONTACT</h3>
+            <p>Langsung chat Admin untuk pemesanan atau konsultasi.</p>
+                <i class="fab fa-whatsapp"></i> +62-882-1228-9046
+            </a>
+        </section>
+    </main>
+
+    <div id="cartModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title">Keranjang — LEXKA STORE</h3>
+            <span class="close-button">&times;</span>
+        </div>
+        <div class="modal-body">
+            <div id="cartItemsList">
+                <p id="emptyCartMessage">Keranjang kosong.</p>
+            </div>
+            
+            <hr>
+            
+            <div class="cart-total">
+                <span>Total (perkiraan)</span>
+                <span id="cartTotal">Rp 0</span>
+            </div>
+            
+            <div class="payment-method">
+                <label for="paymentMethod">Metode Pembayaran</label>
+                <select id="paymentMethod" name="paymentMethod">
+                    <option value="DANA">DANA</option>
+                    <option value="GOPAY">GOPAY</option>
+                    <option value="QRIS">QRIS</option>
+                </select>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button id="checkoutBtn" class="checkout-button" disabled>Checkout via WhatsApp</button>
+        </div>
+    </div>
+</div>
+
+    <footer class="site-footer">
+    <div>© 2025 INDRAA Developer.</div>
+        <p>&copy; 2025 Lexka.store. Keamanan Akun Anda Adalah Prioritas Kami.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
